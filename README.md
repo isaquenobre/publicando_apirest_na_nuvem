@@ -5,29 +5,29 @@ isso é legal
 ```mermaid
 classDiagram
     class User {
-        +String name
+        -String name
     }
 
     class Account {
-        +String number
-        +String agency
-        +float balance
-        +float limit
+        -String number
+        -String agency
+        -float balance
+        -float limit
     }
 
     class Feature {
-        +String icon
-        +String description
+        -String icon
+        -String description
     }
 
     class Card {
-        +String number
-        +float limit
+        -String number
+        -float limit
     }
 
     class News {
-        +String icon
-        +String description
+        -String icon
+        -String description
     }
 
     User "1" *--> "1" Account : account
