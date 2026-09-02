@@ -6,6 +6,10 @@ isso é legal
 classDiagram
     class User {
         -String name
+        -Account account
+        -List~Feature~ features
+        -Card card
+        -List~News~ news
     }
 
     class Account {
